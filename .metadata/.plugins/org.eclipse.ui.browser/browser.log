@@ -90,3 +90,8 @@
 7월 01, 2022 16:20:03.203 [13880:5180:0701/162003.203:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
 7월 01, 2022 16:20:29.472 [13880:8196:0701/162029.472:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
 7월 01, 2022 16:20:35.697 [13880:8196:0701/162035.697:ERROR:CONSOLE(1)] "Session is unregistering, can't dispatch pending call to DOM.getDocument", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+
+7월 05, 2022 18:44:14.65 NEW SESSION
+7월 05, 2022 18:44:14.65 [6256:10972:0705/184414.065:ERROR:device_event_log_impl.cc(214)] [18:44:14.064] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+7월 05, 2022 18:45:11.853 [6256:10524:0705/184511.852:ERROR:util.cc(127)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+7월 05, 2022 18:49:25.301 [9032:2088:0705/184925.301:ERROR:device_event_log_impl.cc(214)] [18:49:25.301] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.

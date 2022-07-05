@@ -29,11 +29,12 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardWriteAction"/>
     <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardWriteFormAction"/>
-    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardListAction"/>
+    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardViewAction"/>
+    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardCheckPassFormAction"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="com.saeyan.dto.BoardVO"/>
+    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardUpdateAction"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.saeyan.dao.BoardDAO"/>
-    <fullyQualifiedTypeName name="com.saeyan.dto.BoardVO"/>
-    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardViewAction"/>
-    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardCheckPassFormAction"/>
+    <fullyQualifiedTypeName name="com.saeyan.controller.action.BoardListAction"/>
 </qualifiedTypeNameHistroy>

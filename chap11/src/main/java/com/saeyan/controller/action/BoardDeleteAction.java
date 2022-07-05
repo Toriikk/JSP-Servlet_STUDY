@@ -2,19 +2,22 @@ package com.saeyan.controller.action;
 
 import java.io.IOException;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class BoardCheckPassFormAction implements Action {
+import com.saeyan.dao.BoardDAO;
+
+public class BoardDeleteAction implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String url = "/board/boardCheckPass.jsp";
+		String num = request.getParameter("num");
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-		dispatcher.forward(request, response);
+		BoardDAO bDao = BoardDAO.getInstance();
+		bDao.deleteBoard(num);
+		
+		new BoardListAction().execute(request, response);
 		
 	}
 	
