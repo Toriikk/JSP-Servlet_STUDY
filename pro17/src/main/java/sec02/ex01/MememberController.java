@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import sec01.ex01.MemberDAO;
 import sec01.ex01.MemberVO;
 
-@WebServlet("/member/*")
+//@WebServlet("/member/*")
 public class MememberController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 		MemberDAO memberDAO;

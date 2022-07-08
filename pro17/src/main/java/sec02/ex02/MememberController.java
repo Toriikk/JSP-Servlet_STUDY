@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("*.do")
+@WebServlet("/member/*")
 public class MememberController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 		MemberDAO memberDAO;
@@ -61,7 +61,7 @@ public class MememberController extends HttpServlet {
 			MemberVO memberVO = new MemberVO(id, pwd, name, email);
 			memberDAO.modMember(memberVO);
 			request.setAttribute("msg","modified");
-			nextPage = "/meMber/listMembers.do";
+			nextPage = "/member/listMembers.do";
 		} else if (action.equals("/delMember.do")) {
 			String id = request.getParameter("id");
 			memberDAO.delMember(id);

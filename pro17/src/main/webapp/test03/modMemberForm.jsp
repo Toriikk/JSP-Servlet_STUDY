@@ -13,6 +13,14 @@
 <head>
 <meta charset="UTF-8">
 <title>회원 정보 수정창</title>
+<style>
+	.cls1 {
+		font-size: 40px;
+		text-align:center;
+		}
+</style>
+</head>
+<body>
 <form method="post" action="${contextPath}/member/modMember.do?id=${memInfo.id}">
 	<table align="center">
 	  <tr>
@@ -51,8 +59,5 @@
 	  </tr>
 	</table>
 </form>
-</head>
-<body>
-
 </body>
 </html>

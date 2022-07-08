@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	import="java.util.*,sec01.ex01.*"
     pageEncoding="UTF-8"
 	isELIgnored="false"    
 %>
@@ -53,7 +52,7 @@
 </head>
 
 <body>
-<p class="cls1">회원정보</p>
+<p class="cls1">나원정보</p>
 	<table align="center" border="1">
 	  <tr align="center" bgcolor="lightgreen">
 	  	<td width="7%"><b>아이디</b></td>
