@@ -15,11 +15,11 @@
 <title>글쓰기창</title>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
-	funtion readURL(input) {
+	function readURL(input) {
 		if(input.files && input.files[0]) {
 			var reader = new FileReader();
 			reader.onload = function(e) {
-				$('#preview').attr('src, e.target.result');
+				$('#preview').attr('src', e.target.result);
 			}
 			reader.readAsDataURL(input.files[0]);
 		}

@@ -11,11 +11,11 @@ public class BoardService {
 	}
 	
 	public List<ArticleVO> listArticles() {
-		List<ArticleVO> articlesList = boardDAO.selectAllArticles();
+		List<ArticleVO> articlesList = boardDAO.selectAllArticles(); // 쿼리 건드림
 		return articlesList;
 	}
 	
-	public void addArticle(ArticleVO article) {
-		boardDAO.insertNewArticle(article);
+	public int addArticle(ArticleVO article) {
+		return boardDAO.insertNewArticle(article);
 	}
 }

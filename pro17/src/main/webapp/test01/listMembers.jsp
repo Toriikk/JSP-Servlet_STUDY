@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	import="java.util.*,sec01.ex01.*"
+	import="java.util.*,sec02.ex02.*"
     pageEncoding="UTF-8"
 	isELIgnored="false"    
 %>
@@ -46,7 +46,7 @@
 	  		</tr>
 	  	</c:when>
 	  	<c:when test="${membersList != null}">
-	  		<c:forEach var="mem" items="${membersList }">
+	  		<c:forEach var="mem" items="${membersList }"> <!-- 컨트롤러에서 포워딩 된 memberList -->
 	  		  <tr align="center">
 	  			<td>${mem.id }</td>
 	  			<td>${mem.pwd }</td>
