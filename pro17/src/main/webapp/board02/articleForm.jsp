@@ -12,13 +12,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>글쓰기창</title>
+<title>새글 쓰기창</title>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
 	function readURL(input) {
 		if(input.files && input.files[0]) {
 			var reader = new FileReader();
-			reader.onload = function(e) {
+			reader.onload = function (e) {
 				$('#preview').attr('src', e.target.result);
 			}
 			reader.readAsDataURL(input.files[0]);
@@ -51,7 +51,7 @@
 	  <tr>
 	    <td align="right"> </td>
 	    <td colspan="2">
-	    <input type="submit" value="글쓰기"/>
+	    <input type="submit" value="글쓰기" />
 	    <img type="button" value="목록보기" onclick="backToList(this.form)" />
 	    </td>
 	  </tr>
